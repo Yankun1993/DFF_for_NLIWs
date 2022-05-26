@@ -4,7 +4,7 @@ Creator: Yankun Gong
 
 Email: gongyk@scsio.ac.cn
 
-Affilication: State Key Laboratory of Tropical Oceanography, South China Sea Institute of Oceanology, Chinese Academy of Sciences, Guangzhou 510301, China.
+Affiliation: State Key Laboratory of Tropical Oceanography, South China Sea Institute of Oceanology, Chinese Academy of Sciences, Guangzhou 510301, China.
 
 Descriptions:
 Two-dimensional idealized model and three-dimensional realistic model input files to verify the DFF (directional Fourier filter) method applicability.
