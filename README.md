@@ -4,7 +4,7 @@ Creator: Yankun Gong (State Key Laboratory of Tropical Oceanography, South China
 Email: gongyk@scsio.ac.cn
 
 Descriptions:
-Three-dimensional and two-dimensional model input files to verify the DFF (directional Fourier filter) method applicability.
+Two-dimensional idealized model and three-dimensional realistic model input files to verify the DFF (directional Fourier filter) method applicability.
 
 ===================================================================================
 1. File "2D_DFF_H_800m_gamma_1.50":
