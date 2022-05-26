@@ -3,7 +3,7 @@
 Creator: Yankun Gong (State Key Laboratory of Tropical Oceanography, South China Sea Institute of Oceanology, Chinese Academy of Sciences, Guangzhou 510301, China)
 Email: gongyk@scsio.ac.cn
 
-Description:
+Descriptions:
 Three-dimensional and two-dimensional model input files to verify the DFF (directional Fourier filter) method applicability.
 
 ===================================================================================
@@ -19,4 +19,12 @@ Three-dimensional and two-dimensional model input files to verify the DFF (direc
   
 ==================================================================================
 
-# References:
+3. References:
+
+Zaron, E.D., 2019. Baroclinic Tidal Sea Level from Exact-Repeat Mission Altimetry. J. Phys. Oceanogr. 49, 193–210. https://doi.org/10.1175/jpo-d-18-0127.1
+
+Gong, Y. (2020). The Effects of Remotely-generated Internal Tides on Internal Waves on a Continental Shelf (Doctoral dissertation, The University of Western Australia).
+
+Gong, Y., Rayson, M. D., Jones, N. L., & Ivey, G. N. (2021). Directional decomposition of internal tides propagating from multiple generation sites. Ocean Modelling, 162, 101801.
+
+
