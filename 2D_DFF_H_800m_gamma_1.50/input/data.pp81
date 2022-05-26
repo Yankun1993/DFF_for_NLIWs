@@ -1,0 +1,11 @@
+# =====================================================================
+# | Parameters for Pacanowski&Philander (1981) vertical mixing scheme |
+# =====================================================================
+ &PP81_PARM01
+ PPnRi=1,
+ PPviscMin=1.e-04,
+ PPdiffMin=1.e-05,
+ PPnu0=1.5e-02,
+ PPviscMax=100.,
+# PPwriteState=.TRUE.,
+ &

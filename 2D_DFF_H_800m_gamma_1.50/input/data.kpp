@@ -1,0 +1,8 @@
+# =====================================================================
+# | Parameters for Pacanowski&Philander (1981) vertical mixing scheme |
+# =====================================================================
+ &KPP_PARM01
+ KPPwriteState=.FALSE.,
+ KPPmixingMaps   = .TRUE.,
+ KPPuseDoubleDiff = .TRUE.,
+ &

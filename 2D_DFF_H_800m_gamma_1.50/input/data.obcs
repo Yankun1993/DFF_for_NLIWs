@@ -1,0 +1,54 @@
+# Open-boundaries
+ &OBCS_PARM01
+  OB_Ieast=-1,
+  OB_Iwest=1,
+  useOrlanskiEast=.FALSE.,
+  useOrlanskiWest=.FALSE.,
+  useOrlanskiNorth=.FALSE.,
+  useOrlanskiSouth=.FALSE.,
+  useOBCSsponge=.TRUE.,
+  useOBCSprescribe=.FALSE.,
+#
+ useOBCStides = .TRUE.,
+#components   = M2       S2     N2       K2       K1      O1       P1       Q1      
+#periods (hr) = 12.4206  12     12.6583  11.9672  23.9345 25.8193  24.0659  26.8684  
+ tidalPeriod  = 43200.0000,
+
+ OBEUamFile='OB_East_u_Amp.bin',
+ OBEVamFile='OB_East_v_Amp.bin',
+ OBWUamFile='OB_West_u_Amp.bin',
+ OBWVamFile='OB_West_v_Amp.bin',
+ OBEUphFile='OB_East_u_Gph.bin',
+ OBEVphFile='OB_East_v_Gph.bin',
+ OBWUphFile='OB_West_u_Gph.bin',
+ OBWVphFile='OB_West_v_Gph.bin',
+
+ BCWUamFile='BC_West_Amp.bin',
+ BCWUphFile='BC_West_Gph.bin',
+
+
+#
+# launch_time = -1.0 when it is closed.
+#  ( -1 is just safe for launch_time .GT. 0 in real space for computer)
+# see OBCS_PARAMS.h for detail info about this var
+ launch_time=-1.0,    
+ &
+
+# Orlanski parameters
+ &OBCS_PARM02
+ Cmax=0.45,
+# cVelTimeScale=44640.,
+# CFIX=1.,
+# useFixedCEast=.TRUE.,
+# useFixedCWest=.TRUE.,
+ &
+
+# Sponge-layer parameters
+ &OBCS_PARM03
+ spongeThicknessW=500,
+ spongeThicknessE=500,
+ Vrelaxobcsinner=22357.,
+ Vrelaxobcsbound=22.357,
+ Urelaxobcsinner=44714.,
+ Urelaxobcsbound=44.714,
+ &
