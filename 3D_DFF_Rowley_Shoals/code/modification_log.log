@@ -1,0 +1,24 @@
+2013-07-17
+	1)  优化sponge边界代码，仅当spongeThinknessN/S/E/W>0时对响应边界使用sponge边界方案
+2013-07-14:
+    1) set speed up time (can not be used when Orlanski is open)
+		This part of codes are only applied for u/v. They are not applied for W/T/S or the others.
+		
+        C set launch time, boundary u/v will be 0 at 0s, and increased linearly to what it should 
+		C    be according to prescribe/tide params at launchtime.
+		C In simple word, boundary from tide and prescribe will be set to 
+		C    (mytime/launchtime)*u0 when mytime < launch_time, or u0 when mytime > launch_time,
+		C    u0 is what u used to be in original MITgcm codes.
+		C
+		C    !NOTICE: This is only used for tide or prescribe u/v, sponge/steven/Orlanski/balance/ice
+		C    will not be influenced.
+		C
+		C    ! launch_time should be set to -1 when it is useless
+		
+		
+
+
+old work： 
+	1) give u\v tidal speed at all open boundary
+    2) give difference sponge boundary params for E/W/S/N boundary
+	3)
